@@ -68,8 +68,19 @@ The database is built on MySQL Workbench and utilizes Entity-Relationship (ER) d
 
 [![ER diagram](https://github.com/Khadimrass/VTYS-kutuphane_otomasyon/blob/main/kutuphane_otomasyon/Projet/medias/Capture%20d'%C3%A9cran%202024-05-10%20001422.png?raw=true)](https://github.com/Khadimrass/VTYS-kutuphane_otomasyon/blob/main/kutuphane_otomasyon/Projet/medias/Capture%20d'%C3%A9cran%202024-05-10%20001422.png)
 ## Prerequisites
-To run this project, you are required to fulfill the following requirements
+- PHP Web Server - EasyPhp 17 for easy use
+- Database - MySql
 
-- A Web Server
-- Database(MySql)
+
 ## Getting Started
+1. To run this project you first need to download and install a PHP Web Server and set it up after installation. Use EasyPhp 17 to not have to make further configurations to deal with.
+
+2. Open EasyPhp 17 and start all services; move to the dashboard and set the path to this project (the path for the folder koutuphane_otomasyon/Projet) under the name you want : this project has been test on the  name "koukutuphane".
+
+3. Open PhpMyAdmin and log in with the name "root" and no password.
+
+4. You now need to import the database. To proceed, click on "Import" tab and choose the path to the database of the project(kotuphane_otomasyon/Projet/koulibrary.sql). Execute then.
+
+5. Now everything is Okay. Comme back to the Devserver Dashboard and click on the name representing the project path(the n ame you gave in step 2), "koukutuphane" in our case.
+
+6. Enjoy the app.
